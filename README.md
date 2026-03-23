@@ -1,10 +1,10 @@
-📩 Anonymous.php – Advanced Messaging API
+# 📩 Anonymous.php – Advanced Messaging API
 
-«⚠️ Disclaimer: This project is intended strictly for educational purposes and legitimate messaging use cases. Any misuse, including spam, harassment, or unauthorized messaging, is strictly prohibited.»
+## «⚠️ Disclaimer: This project is intended strictly for educational purposes and legitimate messaging use cases. Any misuse, including spam, harassment, or unauthorized messaging, is strictly prohibited.»
 
 ---
 
-🚀 Overview
+# 🚀 Overview
 
 Anonymous.php is a PHP-based messaging API designed to demonstrate advanced concepts such as:
 
@@ -18,7 +18,7 @@ The project showcases how to build a scalable and flexible messaging system arch
 
 ---
 
-✨ Features
+# ✨ Features
 
 - 🔄 Multiple SMS API Integrations
 - 🌐 Proxy Rotation System
@@ -31,7 +31,7 @@ The project showcases how to build a scalable and flexible messaging system arch
 
 ---
 
-📁 File Structure
+# 📁 File Structure
 
 Anonymous.php     # Main API file
 sms_logs.json     # Log storage (auto-generated)
@@ -39,7 +39,7 @@ proxies.txt       # Proxy list (optional external source)
 
 ---
 
-⚙️ Installation
+# ⚙️ Installation
 
 1. Clone the repository:
 
@@ -57,7 +57,7 @@ http://localhost/Anonymous.php
 
 ---
 
-📡 API Endpoints
+# 📡 API Endpoints
 
 🔹 Send SMS
 
@@ -73,7 +73,7 @@ country| Country code (default: 90)
 
 ---
 
-🔹 Bulk SMS
+# 🔹 Bulk SMS
 
 POST /Anonymous.php?action=bulk
 
@@ -84,7 +84,7 @@ message=Hello World
 
 ---
 
-🔹 Statistics
+# 🔹 Statistics
 
 GET /Anonymous.php?action=stats
 
@@ -97,19 +97,19 @@ Returns:
 
 ---
 
-🔹 Proxy List
+# 🔹 Proxy List
 
 GET /Anonymous.php?action=proxies
 
 ---
 
-🔹 Test Proxy
+# 🔹 Test Proxy
 
 GET /Anonymous.php?action=test_proxy&proxy=IP:PORT
 
 ---
 
-🧠 How It Works
+# 🧠 How It Works
 
 🔄 Proxy System
 
@@ -117,7 +117,7 @@ GET /Anonymous.php?action=test_proxy&proxy=IP:PORT
 - Success/fail ratio determines usability
 - Dynamic selection for each request
 
-📊 Logging System
+# 📊 Logging System
 
 Stored in:
 
@@ -129,7 +129,7 @@ Tracks:
 - Success/failure counts
 - Timestamps
 
-⚡ Request Engine
+# ⚡ Request Engine
 
 - Uses "cURL" & "curl_multi"
 - Randomized endpoints & user agents
@@ -137,7 +137,7 @@ Tracks:
 
 ---
 
-🔐 Security Notice
+# 🔐 Security Notice
 
 This project does NOT include:
 
@@ -145,11 +145,11 @@ This project does NOT include:
 - API key validation
 - Rate limiting (per user/IP)
 
-👉 You MUST implement these before production use.
+# 👉 You MUST implement these before production use.
 
 ---
 
-🚫 Abuse Policy
+# 🚫 Abuse Policy
 
 The following activities are strictly prohibited:
 
@@ -162,7 +162,7 @@ Any misuse is the sole responsibility of the user.
 
 ---
 
-🛠 Recommended Improvements
+# 🛠 Recommended Improvements
 
 To make this production-ready:
 
@@ -175,7 +175,7 @@ To make this production-ready:
 
 ---
 
-📌 Example Response
+# 📌 Example Response
 
 {
   "status": "completed",
@@ -187,13 +187,13 @@ To make this production-ready:
 
 ---
 
-📜 License
+# 📜 License
 
 This project is licensed under the Apache 2.0 License.
 
 ---
 
-👨‍💻 Author
+# 👨‍💻 Author (Devrim)
 
 Developed as an experimental project to explore:
 
@@ -203,7 +203,7 @@ Developed as an experimental project to explore:
 
 ---
 
-⭐ Final Note
+# ⭐ Final Note
 
 This project is a technical demonstration, not a ready-to-use commercial service.
 
